@@ -2,7 +2,9 @@
     .banner-content,
     .navbar-section,
     .menues ul,
-    .gamer-section
+    .gamer-section,
+    .online-games-section,
+    .online-games-card-container
     {
         flex-direction: column;
         justify-content: center;

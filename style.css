@@ -32,6 +32,12 @@
     font-weight: 400;
 }
 
+.header-text {
+    color: #0B0223;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
 /* nav section */
 
 .navbar-section {
@@ -174,9 +180,78 @@
     text-align: right;
     padding: 50px 50px;
 }
+.online-games-content{
+    text-align: center;
+}
 
 .unleash-text {
     color: #534C64;
     font-size: 2rem;
     font-weight: 700;
+}
+
+.online-games-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.online-games-card-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.online-games-card-container div {
+    align-items: center;
+    width: 80%;
+}
+
+.online-games-card-container img {
+    width: 100%;
+}
+
+.online-games-card p {
+    width: 100%;
+    height: 60px;
+
+}
+
+.online-games-card {
+    position: relative;
+    cursor: pointer;
+}
+
+.online-games-card:hover img {
+    opacity: 0.5;
+}
+
+.card-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.online-games-card:hover .card-overlay {
+    opacity: 1;
+}
+
+.watch-icon {
+    display: inline-block;
+    font-size: 2rem;
+    color: #FF42A5;
+    margin-bottom: 10px;
+}
+
+.online-games-card p {
+    position: relative;
+    z-index: 1;
 }
