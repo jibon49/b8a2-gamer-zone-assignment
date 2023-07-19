@@ -6,6 +6,31 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+/* shared section */
+.btn-red {
+    padding: 20px 40px;
+    border-radius: 48px;
+    border-style: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+
+.colored-text {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.para-text {
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 400;
+}
 
 /* nav section */
 
@@ -70,6 +95,9 @@
 
 }
 
+/* banner sectin */
+
+
 .banner-section {
     display: flex;
     justify-content: space-between;
@@ -87,7 +115,8 @@
     flex-direction: column;
     padding: 140px 100px;
 }
-.content-details{
+
+.content-details {
     margin-top: -50px;
 }
 
@@ -107,27 +136,19 @@
     color: #0B0223;
     font-size: 3rem;
     font-weight: 600;
-    
+
 }
 
 .text-and-icon {
     display: flex;
     align-items: center;
     gap: 5px;
-    
-    
+
+
 
 }
 
-.btn-red {
-    padding: 20px 40px;
-    border-radius: 48px;
-    border-style: none;
-    color: white;
-    font-size: 1.2rem;
-    font-weight: 600;
-    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
-}
+
 .btn-blue {
     padding: 20px 40px;
     border-radius: 48px;
@@ -137,8 +158,25 @@
     font-weight: 600;
     background-color: #4EC5F7;
 }
-.banner-button{
+
+.banner-button {
     margin-top: 20px;
     display: flex;
     gap: 10px;
+}
+
+/* gamer section */
+.gamer-section {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: right;
+    padding: 50px 50px;
+}
+
+.unleash-text {
+    color: #534C64;
+    font-size: 2rem;
+    font-weight: 700;
 }

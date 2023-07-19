@@ -1,7 +1,8 @@
 @media screen and (max-width: 425px) {
     .banner-content,
     .navbar-section,
-    .menues ul
+    .menues ul,
+    .gamer-section
     {
         flex-direction: column;
         justify-content: center;
@@ -22,12 +23,31 @@
     .banner-content{
         
         width: 90%;
-        padding: 100px;
+        padding: 10px;
            
     }
-    .banner-images img{
-        height: auto;
+    .banner-images img
+    
+    {
         width: 100%;
         
     }
+    .gamer-section{
+        width: 100%;
+        align-items: center;
+        padding: 0;
+        background-color: none;
+        
+
+    }
+    .gamer-image img{
+        width: 100%;
+    }
+    .gamer-content{
+        width: 80%;
+        text-align: center;
+        padding: 10px;
+        
+    }
+
 }
