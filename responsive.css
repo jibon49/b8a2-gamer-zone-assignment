@@ -4,7 +4,8 @@
     .menues ul,
     .gamer-section,
     .online-games-section,
-    .online-games-card-container
+    .online-games-card-container,
+    .play-instance-section
     {
         flex-direction: column;
         justify-content: center;
@@ -51,5 +52,29 @@
         padding: 10px;
         
     }
+    
+    .play-instance-section img{
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+    }
+    .sub-image{
+        width: 50%;
+        height: 50%;
+        margin-left: -30px;
+        margin-top: -100px;
+
+    }
+    .play-instance-text{
+        text-align: center;
+        
+    }
+    .play-instance-section{
+        padding: 20px;
+    }
+
+    /* play online */
+
+    
 
 }
