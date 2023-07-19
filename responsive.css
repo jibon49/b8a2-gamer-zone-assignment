@@ -73,8 +73,50 @@
         padding: 20px;
     }
 
-    /* play online */
+    /* game list */
 
+    .game-list-section{
+        width: 100%;
+    }
+    .game-list-container {
+        max-width: 100%;
+        gap: 2px;
+    }
+
+    .game-button {
+        
+        font-size: 0.7rem;
+        padding: 2px 2px;
+    }
+    .game-button img{
+        width: 20%;
+    }
+    .terms ul{
+        font-size: 0.5rem;
+    }
+    .terms{
+        max-width: 100%;
+        margin: auto;
+        
+       
+    }
+    .icons{
+        max-width: 100%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        
     
-
+        
+    }
+    .links ul {
+        max-width: 100%;
+        flex-wrap: wrap;
+        font-size: 0.6rem;
+        padding: 5px;
+        align-items: start;
+    
+    }
 }
+ 
