@@ -102,10 +102,9 @@
     }
     .icons{
         max-width: 100%;
-        margin: auto;
-        display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
+        gap: 20px;
         
     
         
@@ -114,9 +113,13 @@
         max-width: 100%;
         flex-wrap: wrap;
         font-size: 0.6rem;
-        padding: 5px;
-        align-items: start;
+        justify-content: space-evenly;
+        gap: 20px;
     
+    }
+    .copyright-text{
+        color: white;
+        font-size: 0.4rem;
     }
 }
  
