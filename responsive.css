@@ -92,11 +92,18 @@
         width: 20%;
     }
     .terms ul{
-        font-size: 0.5rem;
+
+        width: 100%;
+        font-size: 0.6rem;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 30px;
+        padding: 10px;
     }
     .terms{
         max-width: 100%;
         margin: auto;
+        
         
        
     }
@@ -120,6 +127,106 @@
     .copyright-text{
         color: white;
         font-size: 0.4rem;
+    }
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .banner-content,
+    .navbar-section,
+    .menues ul,
+    .gamer-section,
+    .online-games-section,
+    .online-games-card-container,
+    .play-instance-section {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .banner-section {
+        flex-direction: row;
+    }
+    .navbar-section {
+        height: auto;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    }
+    .banner-content {
+        width: 50%;
+        padding: 140px 50px;
+    }
+    .banner-images img {
+        width: 100%;
+    }
+    .gamer-section {
+        background-color: transparent;
+        padding: 50px;
+    }
+    .gamer-image img {
+        width: 100%;
+    }
+    .gamer-content {
+        width: 50%;
+        text-align: left;
+        padding: 50px;
+    }
+    .play-instance-section img {
+        width: 70%;
+        height: 70%;
+        padding: 0;
+    }
+    .sub-image {
+        width: 40%;
+        height: 40%;
+        margin-left: -50px;
+        margin-top: -50px;
+    }
+    .play-instance-text {
+        text-align: left;
+        padding: 20px;
+    }
+    .play-instance-section {
+        padding: 50px;
+    }
+
+    /* Game list */
+    .game-list-section {
+        width: 100%;
+        padding: 30px;
+    }
+    .game-list-container {
+        max-width: 100%;
+        gap: 20px;
+    }
+    .game-button {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+    .game-button img {
+        width: 30%;
+    }
+
+    /* Footer */
+    .terms ul {
+        font-size: 0.8rem;
+        justify-content: space-evenly;
+        gap: 30px;
+    }
+    .terms {
+        max-width: 100%;
+        padding: 30px;
+    }
+    .icons {
+        max-width: 100%;
+        justify-content: space-evenly;
+        gap: 20px;
+        padding: 30px;
+    }
+    .links ul {
+        font-size: 0.8rem;
+        justify-content: space-evenly;
+        gap: 20px;
+        padding: 30px;
+    }
+    .copyright-text {
+        font-size: 0.8rem;
     }
 }
  
