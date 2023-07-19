@@ -1,0 +1,33 @@
+@media screen and (max-width: 425px) {
+    .banner-content,
+    .navbar-section,
+    .menues ul
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-section{
+        flex-direction: column-reverse;
+        width: 100vw;
+        
+        
+    }
+    .navbar-section{
+        
+       width: 100%;
+        height: 100%;
+        box-shadow: none;
+    }
+    .banner-content{
+        
+        width: 90%;
+        padding: 100px;
+           
+    }
+    .banner-images img{
+        height: auto;
+        width: 100%;
+        
+    }
+}
