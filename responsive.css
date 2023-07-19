@@ -132,6 +132,7 @@
 @media screen and (min-width: 426px) and (max-width: 768px) {
     .banner-content,
     .navbar-section,
+    .banner-section,
     .menues ul,
     .gamer-section,
     .online-games-section,
@@ -149,11 +150,12 @@
         box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     }
     .banner-content {
-        width: 50%;
+
+        width: 100%;
         padding: 140px 50px;
     }
     .banner-images img {
-        width: 100%;
+        width: 80%;
     }
     .gamer-section {
         background-color: transparent;
