@@ -377,6 +377,10 @@ footer{
 #footer-logo{
     padding: 20px 100px 10px 100px;
 }
+.icon-button{
+    background-color: #0B0223;
+    /* border: none; */
+}
 .copyright-text{
     color: white;
     text-align: center;
