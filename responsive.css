@@ -80,13 +80,14 @@
     }
     .game-list-container {
         max-width: 100%;
-        gap: 2px;
+        gap: 15px;
     }
 
     .game-button {
-        
-        font-size: 0.7rem;
-        padding: 2px 2px;
+        width: 110px;
+        height: 25px;
+        font-size: 0.6rem;
+        padding: 1px 1px;
     }
     .game-button img{
         width: 20%;
@@ -108,13 +109,17 @@
        
     }
     .icons{
-        max-width: 100%;
+        max-width: 90%;
         flex-wrap: wrap;
-        justify-content: space-evenly;
-        gap: 20px;
+        justify-content: center;
+        padding: 0;
+        gap: 50px;
         
     
         
+    }
+    .icons img{
+        width: 10%;
     }
     .links ul {
         max-width: 100%;

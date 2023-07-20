@@ -294,6 +294,7 @@
     margin: auto;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
     padding: 10px;
